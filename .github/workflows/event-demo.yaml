@@ -1,5 +1,5 @@
 name: Repo events
-on:[push, pull_request,issues]
+on: [push, pull_request,issues]
 
 jobs:
     event-demo:
