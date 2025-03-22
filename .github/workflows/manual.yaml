@@ -1,0 +1,9 @@
+name: Manually trigger
+on:
+    workflow_dispatch
+
+jobs:
+    log-info:
+        runs-on: ubuntu
+        steps:
+            - run : echo "amit"
